@@ -1,0 +1,50 @@
+program P
+  final int size  30;
+  // -- line 2 col 19: = expected
+
+  class Table {
+    int[] max;
+    int[] min
+    // -- line 8 col 3: ; expected
+  }
+
+  Table val;
+{
+  void main()
+    int x, i;
+    {
+    val = new Table,
+    // -- line 16 col 20: ; expected
+    val.max = new int[size];
+    val.min = new int[size];
+
+    i = 0;
+    int min =;
+    // -- line 22 col 9: invalid assignment or call
+    int max = 0;
+
+    while (min < max  {
+     // -- line 26 col 16: min is undeclared
+      val.min[i] = 0;
+      val.max[i] = 0;
+      min = min * 2;
+      // -- line 29 col 11: min is undeclared
+      i + 1;
+      // -- line 32 col 9: invalid assignment or call
+    }
+
+    read(x);
+    while (x != 0) {
+      if (x >= 0 )
+        val.min[x] = val.min[x] + 1
+        // -- line 40 col 8: ; expected
+       else if (x < 0) {
+        val.max[-x] = val.max[-x] + 1;
+      }
+      x= read(x);
+      // -- line 44 col 10: invalid factor
+    }
+  }
+}
+
+// 9 errors

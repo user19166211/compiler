@@ -1,0 +1,69 @@
+// Test file for MicroJava Scanner
+
+//num
+789
+111
+11111111111
+
+//ident
+a
+x
+y
+ident
+
+//operators
++  // plus
+-  // minus
+*  // times
+/  // slash
+%  // rem
+== // eql
+!= // neq
+<  // lss
+<= // leq
+>  // gtr
+>= // geq
+=  // assign
+;  // semicolon
+,  // comma
+.  // period
+(  // lpar
+)  // rpar
+[  // lbrack
+]  // rbrack
+{  // lbrace
+}  // rbrace
+&& // unknown
+|| // unknown
+
+
+// keywords
+class
+else
+final
+if
+new
+print
+program
+read
+return
+void
+while
+
+//arithmetic operator
+a = 10;
+b = 5;
+sum = a + b;
+difference = a - b;
+product = a * b;
+division = a / b;
+modulus = a % b;
+
+// character constants
+'x'
+'\r'
+'\n'
+'\t'
+'\i'
+'abc'
+
